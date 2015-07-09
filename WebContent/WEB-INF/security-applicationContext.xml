@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+    xmlns:beans="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-2.0.1.xsd">
+
+
+	<global-method-security secured-annotations="enabled">
+    </global-method-security>
+ 
+    <http auto-config="true">
+	      
+	        <intercept-url pattern="/add_cesta.htm" access="ROLE_USER" />   
+            <intercept-url pattern="/restar_cesta.htm" access="ROLE_USER" />          
+            <intercept-url pattern="/borrar_producto.htm" access="ROLE_USER" />	   
+            <intercept-url pattern="/micuenta.htm" access="ROLE_USER" />
+            <intercept-url pattern="/micuenta_onsubmit.htm" access="ROLE_USER" />            
+            <intercept-url pattern="/mispedidos.htm" access="ROLE_USER" />
+            <intercept-url pattern="/micesta.htm" access="ROLE_USER" />
+                                    		 
+        <!-- Indicamos la página para hacer login, las páginas que se mostraran en el caso de que el login sea satisfactorio o no, y la página que se mostrará cuando hagamos el logout -->
+        <form-login login-page="/login.htm" authentication-failure-url="/login.htm?login_error=1" default-target-url="/index.htm"/>
+        <logout logout-success-url="/index.htm"/>
+   
+    </http>
+ 
+    <authentication-provider>
+    <jdbc-user-service data-source-ref="myDataSource"
+    authorities-by-username-query="select users.username, authorities.authority from users, authorities WHERE users.username=authorities.username AND users.username=?"/>   	
+    </authentication-provider>
+</beans:beans>

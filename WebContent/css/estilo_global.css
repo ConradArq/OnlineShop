@@ -1,0 +1,1219 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	min-width:960px;	
+}
+
+img{
+	border:none;	
+}
+
+a{	
+	color:blue;
+}
+
+ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+li{
+	padding-top:2px;
+	font-weight:bold;
+	margin-left:10px;
+}
+
+input{
+	padding:0;
+}
+
+#capaPrincipal{
+	width:98%;
+	margin:auto;
+	text-align:left;
+	margin-top:20px;
+	position:relative;
+}
+
+#capaIzquierda{
+	width:20%;
+	float:left;
+}
+
+#capaDerecha{
+	width:20%;
+	float:left;
+	position:relative;
+	z-index:3;
+}
+
+#cabecera{
+	margin-bottom:10px;
+	height:46px;
+	background:url("../img/esquina_cabecera.jpg") no-repeat bottom right #D4D5D8;	
+	margin-left:222px;
+	color:#2B343A;
+}
+
+/* CABECERA */
+
+#busqueda{
+	margin-top:5px;
+	float:left;
+	margin-left:10px;
+}
+
+#busqueda_avanzada{
+	margin-left:2px;
+}
+
+#busqueda_avanzada a{
+	color:#BC9A2A;
+	font-size:14px;
+	font-weight:bold;
+}
+	
+#usuario_cabecera{
+	text-align:right;
+	margin-right:1%;
+	position:relative;
+	float:right;
+}
+
+.bienvenida{
+	position:absolute;
+	right:40px;
+}
+
+.nombre_bienvenida{
+	font-weight:bold;
+	margin-left:4px;
+}
+
+#cesta_cuenta_cabecera a{
+	color:#2B343A;
+}
+
+#registro_identificacion{
+	float:left;
+	margin-left:24px;
+	font-weight:bold;
+}
+
+#cesta_cuenta_cabecera{
+	margin-right:45px;
+}
+
+#campo_busqueda{
+	height:14px;
+}
+
+.button_buscar{
+	font-size:10px;
+	height:20px;
+	width:72px;
+	background:url("../img/button_buscar.gif");
+	border:none;
+	font-weight:bold;
+	font-family:verdana;
+}
+
+/* PIE */
+
+#pie{
+	clear:both;
+	border-top:1px solid #D0D3D8;
+	position:relative;
+	top:130px;
+	width:98%;
+	left:1%;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-size:12px;
+	font-family:arial;
+}
+
+#pie a{
+	color:#5D717E;
+
+}
+
+/* PARTE IZQUIERDA Y DERECHA */
+
+.bloques_tags{
+	width:191px;
+	background:url("../img/block_footer.gif") bottom no-repeat;
+	padding-bottom:6px;
+}
+
+.bloques_tags h4{
+	background:url("../img/block_header.gif") no-repeat;
+	border-bottom:1px solid #595A5E;
+	font-family:arial;
+	color:#595A5E;
+	text-align:center;
+	height:20px;
+	font-weight:bold;
+	padding-top:4px;
+	font-size:15px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.bloques_tags .bloque_contenido{
+	padding:0.5em 0.6em 0;
+	background:url("../img/block_bg.jpg") repeat-x bottom #F1F2F4;	
+}
+
+.bloques_tags .bloque_contenido li{	
+	margin-top:6px;
+}
+
+.bloques_tags .bloque_contenido a{
+	color:#374853;
+	font-family:verdana;
+	font-size:17px;
+	text-decoration:none;		
+}
+
+/* CARRUSEL */
+
+#bloque_mas_comprados{
+	margin-top:20px;
+}
+
+.carousel_mascomprados{
+	overflow:hidden;
+	color:#374853;
+	font-family:verdana;
+	font-size:17px;
+	background:url("../img/block_bg.jpg") repeat-x bottom #F1F2F4;	
+}
+
+.carousel_mascomprados li{
+	margin-top:5px;	
+}
+
+.carousel_mascomprados img{
+	height:115px;
+	width:80px;
+	border:1px solid #CCCCCC;
+	padding:2px;
+	float:left;
+}
+
+.carousel_texto_flotante{
+	font-size:12px;
+	padding-top:10px;
+	padding-right:3px;
+	width:87px;
+	float:left;
+	margin-left:5px;
+}
+
+.titulo_carousel{
+	color:#BC9A2A;
+}
+
+.titulo_carousel a{
+	color:#BC9A2A;
+	text-decoration:none;
+}
+
+.titulo_carousel a:hover{
+	color:#EAD181;
+}
+
+.fecha_carousel{
+	font-size:10px;
+	color:#595A5E;
+	position:relative;
+	top:3px;
+}
+
+.autor_carousel{
+	font-size:11px;
+	font-family:arial;
+}
+
+
+/* PARTE DERECHA */
+
+/* CARRITO */
+
+.carrito{
+	width:191px;
+	padding-bottom:6px;
+	position:absolute;
+	right:0px;
+}
+
+.carrito h4{
+	font-family:arial;
+	color:gold;;
+	font-weight:bold;
+	font-size:15px;
+	float:left;
+	margin-top:11px;
+	margin-left:16px;
+}
+
+#cabecera_carrito img{
+	width:38px;
+	height:38px;
+	float:right;
+	margin-right:8px;
+	}
+
+#cabecera_carrito{
+	border-bottom:1px solid #595A5E;
+	height:38px;
+	margin-bottom:0px;
+	padding-bottom:3px;
+	padding-top:4px;
+	padding-left:4px;
+	background:url("../img/cabecera_carrito.jpg");
+	}
+
+.carrito .bloque_contenido{
+	padding:0.5em 0.6em 0;
+	color:#374853;
+	font-family:verdana;
+	font-size:17px;	
+	background:url("../img/borde_inf_carrito.jpg") repeat-x bottom #E4FEE5;
+
+}
+
+#articulos_carrito{
+	border-bottom:1px solid gold;
+	padding-bottom:7px
+}
+
+#precio_pago{
+	margin-top:7px;
+}
+	
+#precio_pago img{
+	position:relative;
+	left:19px;
+	margin:10px;
+}
+
+/*OFERTAS*/
+
+#capaDerecha .bloques_tags{
+	position:absolute;
+	right:0px;
+	top:220px;
+}
+
+#capaDerecha .bloques_tags h4{	
+	background:url("../img/block_header_exclusive.gif") no-repeat;
+	border-bottom:1px solid #595A5E;
+	color:white;
+}
+
+.contenido_ofertas{
+	background:url("../img/fondo_ofertas.gif");
+	padding-bottom:10px;
+}
+
+.contenido_ofertas li{
+	height:210px;
+	width:90px;
+	margin-top:0;
+	padding-top:10px;
+}
+
+.flotante_izq{
+	float:left;
+}
+
+.flotante_der{
+margin-left:100px;	
+}
+
+.contenido_ofertas img{
+	height:105px;
+	width:75px;
+	border:1px solid #CCCCCC;
+	padding:2px;
+}
+
+.ofertas_texto_flotante{
+	font-size:12px;
+	padding-right:10px;
+	margin-left:4px;
+	line-height:12px;
+	text-align:center;
+}
+
+.titulo_ofertas a{
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.titulo_ofertas a:hover{
+	text-decoration:underline;
+}
+
+.fecha_ofertas{
+	font-size:10px;
+	color:#595A5E;
+	position:relative;
+	top:3px;
+}
+
+.ofertas_texto_flotante .precio_libro{
+	margin-top:12px;
+}
+
+/* PARTE CENTRAL */
+
+.ruta{
+	text-align:left;
+	border-bottom:1px solid #D4D5D8;
+	padding-bottom:7px;
+	margin-bottom:15px;
+}
+
+.ruta span{
+	color:orange;
+	font-weight:bold;
+}
+
+/* VISTA INDEX */
+
+.capaCentro{
+	width:55%;
+	float:left;
+	margin-right:20px;
+	margin-left:20px;
+	text-align:center;
+}
+
+.titulo img{
+	width:80%;	
+}
+	
+.descripcion{
+	color:#9599A0;
+	font-weight:bold;
+	margin-top:12px;
+}
+
+/*LISTA CENTRAL DE LIBROS */
+
+.cabeceraform_index{
+	margin-top:30px;
+	position:relative;
+}
+
+.cabeceraform_index .ver_mas a{
+	color:#BC9A2A;
+	font-size:12px;
+	position:absolute;
+	right:10px;
+	bottom:5px;
+}
+	
+.carousel_categorias, .carousel_categorias2, .carousel_categorias3{
+	width:100% !important;
+	padding-top:20px;
+}
+
+.next, .prev, .next2, .prev2, .next3, .prev3{
+	cursor: default;
+}
+
+.next, .next2, .next3{
+	position:absolute;
+	right:0;
+	top:3px;
+	z-index:3;
+}
+
+.prev, .prev2, .prev3{
+	position:absolute;
+	left:0;
+	top:3px;
+	z-index:3;
+}
+
+.carousel_categorias .titulo_libro a , .carousel_categorias2 .titulo_libro a, .carousel_categorias3 .titulo_libro a{
+	font-size:18px;
+}
+
+.carousel_categorias li , .carousel_categorias2 li, .carousel_categorias3 li{
+	height:330px;
+	width:100px;
+	padding-right:14px;
+	margin-left:0;
+	position:relative;
+}
+
+.carousel_categorias .datos_libro , .carousel_categorias2 .datos_libro, .carousel_categorias3 .datos_libro{
+	float:none;
+	text-align:center;
+	margin-left:0;
+}
+
+.carousel_categorias .autor_libro , .carousel_categorias2 .autor_libro, .carousel_categorias3 .autor_libro{
+	font-size:12px;
+}
+
+.carousel_categorias .imagen_libro_portada img , .carousel_categorias2 .imagen_libro_portada img, .carousel_categorias3 .imagen_libro_portada img{
+	float:none;
+}
+
+.add_cesta_index{
+	position:absolute;
+	bottom:0;
+}
+
+.add_cesta_index img{
+	width:104px;
+	height:45px;
+}
+
+
+/* ESTILO DE LISTAS DE LIBROS */
+
+.libro{
+	margin-top:20px;
+	height:115px;
+	border-bottom:1px solid #595A5E;
+	padding-bottom:5px;
+}
+
+.imagen_libro_portada img{
+	float:left;
+	height:115px;
+	width:80px;
+}
+
+.datos_libro{
+	float:left;
+	margin-left:20px;
+	color:#374853;
+	text-align:left;
+	margin-left:10px;
+}
+
+.titulo_libro a{
+	color:#BC9A2A;
+	font-size:20px;
+	text-decoration:none;
+}
+
+.titulo_libro a:hover{
+	color:#EAD181;
+}
+
+.imagen_AddCesta{
+	margin-left:509px;
+	position:relative;
+}
+
+.precio_libro{
+	color:#5668CF;
+	font-size:22px;
+}
+
+.fecha_editorial_libro{
+	font-size:11px;
+	font-family:arial;
+}
+	
+
+.imagen_AddCesta img{
+	margin-top:60px;
+	height:50px;
+	width:130px;
+	position:absolute;
+	right:60px;
+}
+
+.disponiblidad{
+	font-weight:normal;
+	font-size:13px;
+	font-family:arial;
+}
+	
+.disponiblidad img{
+	width:10px;
+	margin-right:6px;
+	margin-top:9px;
+}
+
+.disponible{
+	color:green;
+}
+
+.no_disponible{
+	color:red;
+}
+
+.paginas{
+	background-color:#F1F2F4;
+	text-align:right;	
+	padding-right:10px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-size:12px;
+}
+
+.paginas a{
+	color:#4A4A4A;
+}
+
+.paginaActual a{
+	color:#BC9A2A;
+}
+
+.avance_retroceso{
+	text-decoration:none;
+}
+
+
+/* VISTA INFO PRODUCTO */
+
+.info_producto_cabecera a{
+	text-decoration:none;
+	color:#374853;
+}
+
+
+#portada_libro_info img{
+	width:142px;
+	height:186px;
+	float:left;
+}
+
+#titulo_libro_info{
+	text-align:left;
+	margin-left:165px;
+	font-size:25px;
+	color:#BC9A2A;
+	font-weight:bold;
+	font-family:arial;
+}
+#autor_libro_info{
+	margin-top:4px;
+}
+
+#autor_libro_info, #editorial_libro_info, #fecha_libro_info, #ISBN_libro_info, #categoria_libro_info{
+	text-align:left;
+	margin-left:165px;
+	color:#374853;
+	font-size:15px;
+}
+
+#precio_libro_info{
+	color:#5668CF;
+	font-size:32px;
+	font-weight:bold;
+	text-align:left;
+	margin-left:165px;
+	margin-top:9px;
+}
+
+.detalles_libro_info{
+	font-weight:bold;
+	color:#595A5E;
+	font-size:14px;
+	font-family:arial;
+}
+
+#imagen_AddCesta_libro_info{
+	text-align:left;
+	margin-left:255px;
+	position:relative;
+	bottom:42px;
+}
+
+#imagen_AddCesta_libro_info img{
+	width:130px;
+}
+	
+#resumen_libro_info{
+	text-align:left;
+	margin-top:10px;
+	font-family:georgia;
+	color:#595A5E;
+}
+
+.boton_atras_div{
+	margin-top:50px;
+}
+
+.boton_atras_div a{
+	text-decoration:none;
+}
+
+/* VISTA REGISTRO, LOGIN, MI CUENTA, MI CESTA y BUSQUEDA*/
+
+.cabeceraform{
+	border-bottom: 1px solid #47849C;
+	color:#47849C;
+	font-size:18px;
+	font-family:arial;
+	font-weight:bold;
+	padding-bottom:15px;
+	text-align:left;
+}	
+
+.cabeceraform img{
+	width:33px;
+	position:relative;
+	top:8px;
+	right:5px;
+}
+
+.erroresform {
+	color: #ff0000;
+	font-size:12px;
+}
+
+div.erroresform{
+	margin-top:5px;
+	margin-left:6px;
+}
+
+label{
+	display:block;
+	float:left;
+	width:9em;
+	text-align:right;
+	margin-right:10px;
+}
+
+#login label, #avanzada label{
+	width:8em;
+	text-align:left;	
+}
+
+#login, #avanzada{
+	padding-top:20px;
+	padding-left:10px;
+	border-bottom: 1px solid #47849C;
+	padding-bottom:12px;
+	background:url("../img/block_bg.jpg") repeat-x scroll center bottom #F1F2F4;
+	color:#5C6367;
+	font-size:14px;
+}
+
+#login_logueado{
+	text-align:left;
+	margin-top:20px;
+	color:#374853;
+	font-weight:bold;
+}
+
+#registro, #micuenta{
+	color:#5C6367;
+	font-size:14px;
+}
+	
+.campo_input{
+	text-align:left;
+	height:32px;
+}
+
+.erroresform{
+	text-align:left;
+}
+
+#label_h, #label_m, #label_ml, #label_hl, #mclabel_h, #mclabel_m, #mclabel_ml, #mclabel_hl{
+	display:block;
+	float:left;
+	width:17px;
+	margin-right:0;
+}
+	
+legend{
+	text-align:center;
+	font-weight:bold;
+	color:#374853;
+}
+
+fieldset{
+	margin-top:35px;
+	background:url("../img/block_bg.jpg") repeat-x scroll center bottom #F1F2F4;
+}
+
+.datos_acceso, .informacion_personal{
+	margin-top:20px;
+}
+	
+#registro_submit, #login_submit, #aceptar_submit, #buscar_submit{
+	font-size:11px;
+	height:18px;
+	width:94px;
+	border:none;
+	font-family:verdana;
+	background:url("../img/button.gif");
+}
+
+#mensaje_login_exito_registro, #mensaje_cabecera_error, #mensaje_editarcuenta_exito{
+	color:#47849C;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-weight:bold;
+	border: 1px solid #47849C;
+	padding:5px;
+	font-size:13px;
+	font-family:arial;
+}
+
+#mensaje_cabecera_error{
+	color:#FF0000;
+}
+
+#recordar_password{
+	text-align:left;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+
+/* BUSCAR */
+
+.resultados_busqueda{
+	color:#374853;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.cabecera_resultados{
+	background-color:#F1F2F4;
+	font-family:arial;
+	font-size:13px;
+	margin-top:35px;
+	padding:3px 3px 3px 12px;
+	text-align:left;
+}
+
+
+	
+/* VISTA MI CUENTA Y MI CESTA */	
+
+.cabecera_cuenta_cesta{
+	background:#F5EABA;
+	padding-top:4px;
+	padding-bottom:4px;
+	color:#BDB8B3;
+	font-weight:bold;
+}
+
+.sin_productos{
+	color:#595A5E;
+	font-size:14px;
+	margin-top:10px;
+	text-align:left;
+	font-family:arial;
+}
+
+.micuenta_cabecera_datos_personales{
+	border-right:1px solid #6B7378;
+	padding-right:12%;
+	padding-left:19%;
+}
+
+.micuenta_cabecera_mis_pedidos{
+	padding-left:12%;
+}
+	
+.cabecera_cuenta_cesta a{
+	color:#374853;
+	text-decoration:none;
+	font-family:arial;
+	font-size:13px;
+	font-weight:normal;
+}
+
+.cabecera_negrita a{
+	font-weight:bold;
+}
+
+.cabecera_cuenta_cesta a img{
+	margin-right:4px;
+}
+
+/* MI CESTA */
+
+/* MI CESTA > RESUMEN */
+
+#cesta_resumen li, #pedidos_detalle li{
+	margin:0;
+	padding-left:6px;
+}
+	
+.par{
+	background-color:#ECEEF0;
+}
+
+.cabecera_cuenta_cesta{
+	text-align:left;
+	position:relative;
+}	
+	
+	
+.micesta_cabecera_resumen{
+	margin-left:7%;
+	padding-right:12%;
+	border-right:1px solid #6B7378;	
+}
+
+.micesta_cabecera_direccion{
+	padding-left:12%;
+	border-right:1px solid #6B7378;	
+	padding-right:12%;
+}
+
+.micesta_cabecera_pago{
+	position:absolute;
+	right:10%;
+}
+
+.cabecera_carrito, .cabecera_pedido, .cabecera_detalle_pedido{
+	border-bottom:1px solid #D8C047;
+	margin-top:30px;
+	padding-bottom:26px;
+	text-align:left;
+	padding-left:10px;
+}
+
+.cabecera_carrito span, .cabecera_pedido span, .cabecera_detalle_pedido span{
+	color:#BC9A2A;
+	font-weight:bold;
+	margin-right:1%;
+	display:block;
+	float:left;
+	width:16%;
+}
+	
+#cabecera_carrito_titulo, #cabecera_detalle_pedido_titulo{
+	margin-left:11%;
+}
+
+.libro_carrito,.libro_pedido{
+	height:75px;
+	position:relative;
+}
+
+.libro_carrito .imagen_libro_portada{
+	position:relative;
+	top:6px;
+}
+	
+.libro_carrito .imagen_libro_portada img{
+	height:62px;
+	width:45px;
+}
+
+.libro_carrito .datos_libro{
+	height:62px;
+	width:100%;
+	position:absolute;
+	margin:0;
+	top:6px;
+}
+
+.libro_carrito .datos_libro div{
+	float:left;
+	color:#374853;
+	font-weight:bold;
+	font-size:14px;
+	margin-right:1%;
+	width:16%;
+}
+
+.libro_carrito .datos_libro .titulo_libro{
+	position:absolute;
+	margin-left:11%;
+}
+
+.libro_carrito .datos_libro .autor_libro{
+	margin-left:28%;
+}
+
+.libro_carrito .datos_libro .precio_libro, .libro_carrito .datos_libro .num_libros {
+	margin-left:1%;
+}
+
+#add_cesta{
+	width:70%;
+	height:12px;
+}
+
+#borrar_cesta{
+	position:relative;
+	top:4px;
+}
+
+.botones_pie{
+	margin-top:20px;	
+}
+
+.botones_pie a{
+	text-decoration:none;
+}
+	
+
+.boton_siguiente{
+	background:url("../img/button_big_green.gif");
+	float:right;
+	width:120px;
+	height:18px;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.boton_atras{
+	background:url("../img/button_big.gif");
+	float:left;
+	width:120px;
+	height:18px;
+	font-weight:bold;
+	color:black;
+	font-size:14px;
+}
+
+.boton_seguir_comprando{
+	background:url("../img/button-large.gif");	
+	float:left;
+	width:180px;
+	height:18px;
+	font-weight:bold;
+	color:black;
+	font-size:14px;
+}
+
+/* MI CUENTA > PEDIDOS */
+
+#pedidos_resumen li{
+	margin:0;
+	padding-left:6px;
+}
+
+#pedidos_resumen .libro_carrito{
+	height:84px;
+}
+	
+#pedidos_resumen .datos_libro, #pedidos_detalle .datos_libro, #carrito .datos_libro{
+	z-index:1;
+}
+
+#pedidos_resumen .imagen_libro_portada, #pedidos_detalle .imagen_libro_portada, #carrito .imagen_libro_portada{
+	z-index:2;
+}
+
+.toggleborder:hover img{
+	border: 1px solid #BC9A2A;
+}
+
+.desplazar_portada{
+	position:relative;
+	right:32px;
+}
+
+#cabecera_pedido_titulo{
+	margin-left:19%;
+}
+
+.id_pedido{
+	margin-left:20%;
+	position:absolute;
+}
+
+.fecha_pedido{
+	margin-left:36%;
+}
+
+.importe_pedido, .importe_libro_pedido{
+	display:block;
+	width:19%;
+	float:left;
+	width:11%;
+}
+
+.consultar{
+	position:relative;
+	left:3.5%;
+}
+
+.consultar a{
+	text-decoration:none;
+	color:#374853;
+}
+	
+
+/* MI CUENTA > PEDIDOS > DETALLE PEDIDO */
+
+.cabecera_detalle_pedido span, #pedidos_detalle .datos_libro div{
+	width:18%; 
+}
+
+#importe_detalle_pedido{
+	width:54px;
+}
+
+.autor_libro_detalle_pedido{
+	margin-left:30%;
+	width:17% !important;
+	margin-right:2% !important;
+}
+
+.precio_libro_detalle_pedido{
+	margin-right:2% !important;
+	padding-left:3px;
+}
+
+.cantidad_libro_detalle_pedido{
+	margin-right:0 !important;
+}
+
+.precio_libro_detalle_pedido{
+	margin-left:0;
+}
+
+.coste_envio{
+	background-color:#F5EABA;
+	float:right;
+	margin-bottom:20px;
+	margin-top:30px;
+	padding:3px 0 3px 0;
+	width:180px;
+	text-align:center;
+	font-family:arial;
+}
+
+.importe_total{
+	background-color:#F5EABA;
+	float:right;
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	width:120px;
+	padding:3px 0 3px 0;
+	font-family:arial;
+}
+
+.cantidad_coste_envio, .cantidad_importe_total{
+	color:#374853;
+	font-weight:bold;
+}
+
+	
+/* MI CESTA > DIRECCION */
+
+#direccion_usuario{
+	background:url("../img/block_bg.jpg") repeat-x bottom #F1F2F4;	
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#direccion_usuario .header{
+	margin-top:10px;
+	background:url(../img/block_header_direccion.gif);
+	width:283px;
+	margin-left:29%;
+	color:#374853;
+	font-weight:bold;
+	height:24px;
+	line-height:24px;
+	border-bottom:1px solid #595A5E;
+}
+	
+#direccion_usuario_campos{
+	background-color:white;	
+	width:283px;
+	margin-left:29%;
+	padding-top:12px;
+	padding-bottom:10px;
+}
+	
+#direccion_usuario_campos ul{	
+	text-align:left;
+}
+
+.dir_campos_c{
+	color:#5D717E;
+	font-weight:normal;
+	float:left;
+	display:block;
+	width:78px;	
+}
+
+.dir_campos_v{
+	font-weight:normal;	
+}
+
+.dir_campos_v, #direccion_usuario_campos a{
+	color:#DD2A81;
+}
+
+#direccion_usuario_campos a{
+	font-size:14px;
+	font-family:verdana;
+}
+
+.dir_campos_a{
+	display:block;
+	margin-top:25px;
+	color:#5D717E;
+}
+
+/* MI CESTA > PAGO */
+
+#pagar_pedido{
+	margin-top:15px;
+	margin-bottom:20px;
+	color:#5D717E;
+	text-align:left;
+	font-weight:bold;
+}
+
+#pagar_pedido_input{
+	text-align:left;
+	font-family:arial;
+}
+
+#pagar_pedido_input label{
+	display:inline;
+	float:none;
+	margin-right:5px;
+	margin-left:40px;
+}
+
+.pagar_pedido_indicador{
+	font-weight:bold;
+	color:#5D717E;
+}
+
+#pagar_pedido_info{
+	font-size:12px;
+	text-align:left;
+	margin-top:50px;
+}
+
+/* MI CESTA > CONFIRMAR PEDIDO */
+
+#resultado_compra{
+	color:#47849C;
+	font-weight:normal;
+}
+
+#resultado_compra_mensaje{
+	font-weight:bold;
+	text-align:left;
+	margin-top:20px;
+	font-family:arial;
+	color:#374853;
+}
+
